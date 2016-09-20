@@ -19,6 +19,7 @@ struct Books
 void printBook( struct Books book )
 {
    cout << "Book title : " << book.title <<endl;
+   cout << "Book title : " << book->title <<endl;
    cout << "Book author : " << book.author <<endl;
    cout << "Book subject : " << book.subject <<endl;
    cout << "Book id : " << book.book_id <<endl;
