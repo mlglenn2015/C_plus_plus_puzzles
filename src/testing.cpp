@@ -136,22 +136,22 @@ int main()
        3. Iterate through the vector and write the output to the console, counting the occurrences of the first number in each entry.
 
        What we know:
-          1. The assignment expects counts for integers 1 through 9. Some integers will have 0 for the count. We will count the occurrences of numbers 1 through 9.
+          1. Display counts for integers 1 through 9. Some integers will have 0 for the count. We will count the occurrences of numbers 1 through 9.
           2. The output appears to be formatted into fixed-width columns
           3. The Frequency is a floating point decimal that can be computed as ratio of the total number of base-10 digits (0-9).
 
-       Example Output:
-       Digit     Count     Frequency
-       --------  --------  -----------
-       1         3         0.30
-       2         2         0.20
-       3         2         0.20
-       4         0         0.00
-       5         0         0.00
-       6         0         0.00
-       7         2         0.20
-       8         0         0.00
-       9         1         0.10
+          Example Output:
+          Digit     Count     Frequency
+          --------  --------  -----------
+          1         3         0.30
+          2         2         0.20
+          3         2         0.20
+          4         0         0.00
+          5         0         0.00
+          6         0         0.00
+          7         2         0.20
+          8         0         0.00
+          9         1         0.10
        */
 
       cout << "\nWriting data from " << fileName << ": \n\n";
